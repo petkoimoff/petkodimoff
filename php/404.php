@@ -1,0 +1,1 @@
+<hr /><div style="margin: 50px auto; padding: 50px 0; border: 5px solid red; border-radius: 10px; text-align: center; width: 90%; max-width: 800px; font-size: 24px; line-height: 1.25em;">Търсената от вас страница не беше намерена.</div>
