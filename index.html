@@ -6,7 +6,41 @@
     body {
       margin: 0;
       padding: 0;
+	 
     }
+	nav {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 80px 10px 80px;
+
+}
+
+.logo img {
+  height: 40px;
+}
+
+.navbar-items {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-items li {
+  display: inline-block;
+}
+
+.navbar-items li a {
+  display: block;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: #333;
+}
+
+.navbar-items li a:hover {
+  background-color: #ddd;
+}
     .header {
       height: 50vh; /* Задава височината на header-а да е равна на височината на екрана */
       background-image: url("https://postvai.com/wp-content/uploads/2023/01/9cd4e30f-ac47-4329-93de-dd13ac26daca.jpg"); /* Пътят към картинката на header-а */
@@ -22,14 +56,40 @@
      background-color: white; /* Цвят на фона на съдържанието */
      margin: -80px 80px 0px; /* Отрицателен отстъп отгоре, положителен отстъп отстрани */
     }
+	h1 {
+font-size: 40px;
+margin: 20px;
+}
+
+h2 {
+font-size: 30px;
+}
+
+p {
+font-size: 19px;
+margin: 20px;
+}
+	
   </style>
 </head>
 <body>
+<nav>
+    <div class="logo">
+      <img src="https://postvai.com/wp-content/uploads/2023/01/postvam.webp" alt="Лого">
+    </div>
+    <ul class="navbar-items">
+      <li><a href="#">Начало</a></li>
+      <li><a href="#">За нас</a></li>
+      <li><a href="#">Услуги</a></li>
+      <li><a href="#">Контакти</a></li>
+    </ul>
+  </nav>
   <div class="header">
   </div>
   <div class="content">
-    <h1 style="margin: 40px;">Заглавие на съдържанието</h1>
-     <p style="margin: 40px;">Тук може да добавите текст и друго съдържанtryh thtrytry ghngh hntyj tyj etyjytjtyjtyjtyjytjytjtyjtyjtyjtrjtyj tyjtyjtyj tyjtrhy try etry tery et etryetry teyu yet ueruttyuy tyu tyutyu tyutyu tyu ytyu ytutyu tyu ty ty uty rurytyu tyuytyuy tyие на страницата.</p>
+    <h1>Заглавие на съдържанието</h1>
+     <p>Тук може да добавите текст и друго съдържанtryh thtrytry ghngh hntyj tyj etyjytjtyjtyjtyjytjytjtyjtyjtyjtrjtyj tyjtyjtyj tyjtrhy try etry tery et etryetry teyu yet ueruttyuy tyu tyutyu tyutyu tyu ytyu ytutyu tyu ty ty uty rurytyu tyuytyuy tyие на страницата.</p>
   </div>
 </body>
 </html>
+
